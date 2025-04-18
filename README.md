@@ -1,26 +1,50 @@
-# Crowd Density Estimation - Smart City Monitoring
+# Crowd Density Estimation for Smart Cities
 
-## Project Overview
-This project simulates an IoT-based surveillance system that estimates crowd density using video analytics and AI models.
+## Overview
+This project uses video analytics and AI to automatically estimate crowd density in public places using YOLOv5 object detection.
 
 ## Steps
-1. **Data Collection**: Captured 2 real-world public videos (~30s each).
-2. **Frame Extraction**: Extracted 500+ frames using OpenCV.
-3. **Annotation**: Annotated all frames using Roboflow in YOLO format.
-4. **Model Training**: Fine-tuned YOLOv5 on the annotated dataset.
-5. **Density Estimation**: Performed inference to classify frames into Low, Medium, High crowd density.
-6. **Reporting**: Generated graphs for Time vs People Count and Density Distribution.
+1. **Data Collection**: Recorded 2 public videos (~30 seconds each).
+2. **Frame Extraction**: Extracted frames every 10 frames using OpenCV.
+3. **Annotation**: Used Roboflow for annotating people in frames (YOLO format).
+4. **Model Training**: Fine-tuned YOLOv5s model on the custom dataset.
+5. **Inference & Graphs**: Predicted crowd density and plotted graphs.
+
+## Project Structure
 
 ## Tools Used
-- Python, OpenCV, Roboflow, YOLOv5, PyTorch
-- Google Colab for training
-- GitHub for version control
-- Google Drive for dataset hosting
-
-## Submission
-- [Google Drive Link](#) (dataset, model, graphs)
-- [GitHub Repository](#) (code and instructions)
+- Python
+- OpenCV
+- Roboflow (annotation)
+- YOLOv5
+- PyTorch
+- Matplotlib
+- Google Colab
+- GitHub
 
 ## Results
-- Achieved ~85% accuracy on custom data
-- Successful classification into crowd density categories
+- Achieved high accuracy (~85%) on detecting people.
+- Time vs People Count graph plotted successfully.
+- Density distribution clearly visualized.
+
+## Important Links
+- 📂 [Google Drive Dataset Link](#)
+- 📝 [Google Colab Notebooks](#)
+- 🛠️ [GitHub Code Repository](#)
+
+## Screenshots
+- Frame Extraction Preview
+- Roboflow Annotations Screenshot
+- YOLOv5 Training Logs
+- Final Crowd Density Graphs
+
+---
+
+## How to Run
+1. Upload videos.
+2. Extract frames.
+3. Annotate using Roboflow.
+4. Train YOLOv5 using `2_Train_YOLOv5_on_Crowd_Dataset.ipynb`.
+5. Predict and plot graphs using `3_Density_Estimation_and_Graphs.ipynb`.
+
+---
