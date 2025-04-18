@@ -28,9 +28,9 @@ This project uses video analytics and AI to automatically estimate crowd density
 - Density distribution clearly visualized.
 
 ## Important Links
-- 📂 [[Google Drive Dataset Link](https://drive.google.com/drive/folders/1qCRJH8LZkKIe2V2Lwnga97Nke8Vkd1wk?usp=sharing)](#)
-- 📝 [[Google Colab Notebooks](https://colab.research.google.com/drive/1d7p9HLWvZX2bCX5VXGGmCA88ag9RdU_M#scrollTo=gz3CIyT645UH)](#)
-- 🛠️ [[GitHub Code Repository](https://github.com/ppcracker/Crowd-density-estimation)](#)
+- 📂 [Google Drive Dataset Link](https://drive.google.com/drive/folders/1qCRJH8LZkKIe2V2Lwnga97Nke8Vkd1wk?usp=sharing)
+- 📝 [Google Colab Notebooks](https://colab.research.google.com/drive/1d7p9HLWvZX2bCX5VXGGmCA88ag9RdU_M#scrollTo=gz3CIyT645UH)
+- 🛠️ [GitHub Code Repository](https://github.com/ppcracker/Crowd-density-estimation)
 
 ## Screenshots
 - Frame Extraction Preview
